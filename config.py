@@ -6,9 +6,9 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-    FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
-    FLASKY_MAIL_SENDER = 'Chen Liang <chenliang@3tcloud.com>'
-    FLASKY_ADMIN = 'chenliang@3tcloud.com'
+    BLOGY_MAIL_SUBJECT_PREFIX = '[Blogy]'
+    BLOGY_MAIL_SENDER = 'Chen Liang <chenliang@3tcloud.com>'
+    BLOGY_ADMIN = 'chenliang@3tcloud.com'
 
     @staticmethod
     def init_app(app):
