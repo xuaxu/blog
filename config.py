@@ -9,6 +9,7 @@ class Config:
     BLOGY_MAIL_SUBJECT_PREFIX = '[Blogy]'
     BLOGY_MAIL_SENDER = 'Chen Liang <chenliang@3tcloud.com>'
     BLOGY_ADMIN = 'chenliang@3tcloud.com'
+    BLOGY_POSTS_PER_PAGE = 10
 
     @staticmethod
     def init_app(app):
